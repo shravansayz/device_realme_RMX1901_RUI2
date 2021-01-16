@@ -401,6 +401,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     init.oppo.vendor.motor.rc \
+    logcat.rc \
     ueventd.qcom.rc \
     usb_compositions.conf
 
