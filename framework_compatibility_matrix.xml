@@ -235,4 +235,201 @@
         <instance>default</instance>
     </interface>
 </hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.radio.config</name>
+    <version>1.0-2</version>
+    <interface>
+        <name>IRadioConfig</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.google.google_battery</name>
+    <version>1.0-1</version>
+    <interface>
+        <name>IGoogleBattery</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl">
+    <name>vendor.nxp.nxpese</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+        <name>INxpEse</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl">
+    <name>vendor.nxp.nxpnfc</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+        <name>INxpNfc</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.oplus.hardware.appradio</name>
+    <version>1.0</version>
+    <interface>
+        <name>IOplusAppRadio</name>
+        <instance>oplus_app_slot1</instance>
+        <instance>oplus_app_slot2</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.oplus.hardware.ims</name>
+    <version>1.0</version>
+    <interface>
+        <name>IOplusImsRadio</name>
+        <instance>oplusimsradio0</instance>
+        <instance>oplusimsradio1</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.oplus.hardware.radio</name>
+    <version>1.0</version>
+    <interface>
+        <name>IOplusRadio</name>
+        <instance>oplus_slot1</instance>
+        <instance>oplus_slot2</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.oppo.hardware.biometrics.fingerprint</name>
+    <version>2.0-1</version>
+    <interface>
+        <name>IBiometricsFingerprint</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.oppo.hardware.camera.oppoAlgoProcessService</name>
+    <version>1.0</version>
+    <interface>
+        <name>IOppoAlgoProcessService</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.audio.effect</name>
+    <version>7.0</version>
+    <interface>
+        <name>IEffectsFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.audio</name>
+    <version>7.0</version>
+    <interface>
+        <name>IDevicesFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.biometrics.fingerprint</name>
+    <version>2.0-3</version>
+    <interface>
+        <name>IBiometricsFingerprint</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.bluetooth.audio</name>
+	<version>4</version>
+    <interface>
+        <name>IBluetoothAudioProviderFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.cas</name>
+    <version>1</version>
+    <interface>
+        <name>IMediaCasService</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.drm</name>
+    <version>1</version>
+    <interface>
+        <name>IDrmFactory</name>
+        <instance>clearkey</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.light</name>
+	<version>2</version>
+    <interface>
+        <name>ILights</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.memtrack</name>
+    <version>1</version>
+    <interface>
+        <name>IMemtrack</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.power</name>
+	<version>4</version>
+    <interface>
+        <name>IPower</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.usb</name>
+    <version>1.0-3</version>
+    <interface>
+        <name>IUsb</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.usb.gadget</name>
+    <version>1.0-2</version>
+    <interface>
+        <name>IUsbGadget</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.vibrator</name>
+    <version>2</version>
+    <interface>
+        <name>IVibrator</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi</name>
+	<version>2</version>
+    <interface>
+        <name>IWifi</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.hostapd</name>
+	<version>2</version>
+    <interface>
+        <name>IHostapd</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+	<version>3</version>
+    <interface>
+        <name>ISupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
 </compatibility-matrix>
