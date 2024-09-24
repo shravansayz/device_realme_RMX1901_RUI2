@@ -18,8 +18,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Viper
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 
 
 PRODUCT_BRAND := realme
