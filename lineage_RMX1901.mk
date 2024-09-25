@@ -6,9 +6,13 @@
 
 # Inherit some common Evolution X stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_HAS_UDFPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-SAKURA_BUILD_TYPE := gapps
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+WITH_GAPPS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+EVEREST_MAINTAINER := SHRAVAN
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
