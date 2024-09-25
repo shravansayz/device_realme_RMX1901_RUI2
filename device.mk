@@ -441,7 +441,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/sdm845 \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/blaze/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # SystemUI
