@@ -13,6 +13,7 @@ WITH_GAPPS := true
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 EVEREST_MAINTAINER := SHRAVAN
+TARGET_DISABLE_EPPE := true
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
